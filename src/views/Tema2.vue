@@ -14,7 +14,7 @@
             img.imagen_flotante_animada(src="@/assets/curso/tema2/1.svg")
         .col-lg-8
           .bloque-texto-a__texto.p-5
-            p(data-aos="fade-right") Para realizar una aplicación móvil híbrida se debe contar con una arquitectura que permita comprender e integrar cada uno de los elementos necesarios para realizar los procesos; por lo general se usa el modelo de tres capas para la arquitectura de software para aplicaciones móviles. Estas capas se pueden dividir y trabajar con otras subcapas, según la complejidad y robustez del aplicativo, estas son: la capa de presentación, la capa de aplicación o capa de negocio y la capa de datos.
+            p(data-aos="fade-right") Para realizar una aplicación móvil híbrida se debe contar con una arquitectura que permita comprender e integrar cada uno de los elementos necesarios para realizar los procesos; por lo general se usa el modelo de tres capas para la arquitectura de #[em software] para aplicaciones móviles. Estas capas se pueden dividir y trabajar con otras subcapas, según la complejidad y robustez del aplicativo, estas son: la capa de presentación, la capa de aplicación o capa de negocio y la capa de datos.
 
     AcordionA.mt-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
       .row(titulo="Componentes de la capa de datos")
@@ -50,7 +50,7 @@
 
       .row(titulo="Diseño de componentes de ayuda o servicios")
         .col-md-12.mb-4.mb-md-0
-          p Centralizar la información con el fin de reutilizarla, identificar librerías y elementos que permitan la reutilización de los datos de manera eficiente y segura, implementar procedimientos para generar un buen control de acceso a los datos y realizar pruebas en cada uno de los elementos utilizados, identificando y creando  mecanismos de ayuda para suplir problemas más frecuentes, como por ejemplo los strings de conexión, la comprobación y  autenticación de las fuentes de datos, el monitoreo de los servicios y excepciones particulares en los diferentes procesos.
+          p Centralizar la información con el fin de reutilizarla, identificar librerías y elementos que permitan la reutilización de los datos de manera eficiente y segura, implementar procedimientos para generar un buen control de acceso a los datos y realizar pruebas en cada uno de los elementos utilizados, identificando y creando  mecanismos de ayuda para suplir problemas más frecuentes, como por ejemplo los #[em strings] de conexión, la comprobación y  autenticación de las fuentes de datos, el monitoreo de los servicios y excepciones particulares en los diferentes procesos.
 
       .row(titulo="Agentes de servicio")
         .col-md-12.mb-4.mb-md-0

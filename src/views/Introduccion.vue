@@ -11,7 +11,7 @@
     figure
       img.imagen_flotante_animada(data-aos="fade-up" src="@/assets/curso/introduccion/1.svg")
 
-    p.mt-5(data-aos="fade-up") Para lograr el correcto funcionamiento de las aplicaciones móviles es importante manejar una estructura en el Frontend y en el Backend, capaz de responder a los flujos de navegación requeridos en cada uno de los sistemas operativos donde se va a desplegar la aplicación; por esta razón es importante conocer cada uno de ellos, de manera detallada y no cometer errores en el diseño de la estructura de la aplicación. Otro tema relevante para el desarrollo de aplicaciones móviles es la capacidad de generar, utilizar y consumir las API (interfaz de programación de aplicaciones) que permitan la integración con elementos necesarios para cumplir con los requerimientos del cliente.
+    p.mt-5(data-aos="fade-up") Para lograr el correcto funcionamiento de las aplicaciones móviles es importante manejar una estructura en el #[em Frontend] y en el #[em Backend], capaz de responder a los flujos de navegación requeridos en cada uno de los sistemas operativos donde se va a desplegar la aplicación; por esta razón es importante conocer cada uno de ellos, de manera detallada y no cometer errores en el diseño de la estructura de la aplicación. Otro tema relevante para el desarrollo de aplicaciones móviles es la capacidad de generar, utilizar y consumir las API (Interfaz de Programación de Aplicaciones) que permitan la integración con elementos necesarios para cumplir con los requerimientos del cliente.
 
 
 </template>

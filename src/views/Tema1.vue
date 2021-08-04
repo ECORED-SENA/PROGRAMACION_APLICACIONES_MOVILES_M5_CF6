@@ -60,7 +60,7 @@
     .titulo-segundo.mt-5
       h2#t_1_2 1.2 Flujos de navegación según Sistema Operativo
 
-    p(data-aos="fade-up") Los flujos de navegación deben contar con una estructura sencilla e intuitiva que se familiarice con los antecedentes de las aplicaciones que se utilizan sobre ese sistema operativo a trabajar y si es el caso trabajar sobre varios S.O, se debe adaptar y facilitar la navegación y experiencia al usuario.
+    p(data-aos="fade-up") Los flujos de navegación deben contar con una estructura sencilla e intuitiva que se familiarice con los antecedentes de las aplicaciones que se utilizan sobre ese sistema operativo a trabajar y, si es el caso trabajar sobre varios S.O., se debe adaptar y facilitar la navegación y, experiencia al usuario.
 
     .bloque-texto-a.color-secundario.p-4.p-md-5 
       .row.m-0.align-items-center.justify-content-between
@@ -71,11 +71,11 @@
           .bloque-texto-a__texto.p-5
             p(data-aos="fade-right") Todo el recorrido y navegación del usuario debe tener características previsibles, coherentes y sencillas, independientemente de la navegación que se utilice; gran parte del éxito de la aplicación móvil recae sobre estos tipos de detalles.  Si la aplicación no cuenta con un flujo de desplazamiento sencillo, los usuarios simplemente no la utilizarán por complicada o inapropiada.
 
-    h3.mt-5(data-aos="fade-up") Flujo de navegación en Android
+    h3.mt-5(data-aos="fade-up") Flujo de navegación en #[em Android]
 
-    p.mt-4(data-aos="fade-up") Desde sus primeras versiones, la navegación en Android se realizó por medio de un patrón o comportamiento nombrado como “hacia adentro, hacia atrás y hacia arriba”. Esta navegación se caracteriza porque cuenta con dos botones “up” y “back”: arriba y atrás, como se muestra en la siguiente figura.
+    p.mt-4(data-aos="fade-up") Desde sus primeras versiones, la navegación en #[em Android] se realizó por medio de un patrón o comportamiento nombrado como “hacia adentro, hacia atrás y hacia arriba”. Esta navegación se caracteriza porque cuenta con dos botones #[em “up”] y #[em “back”]: arriba y atrás, como se muestra en la siguiente figura.
 
-    p.mt-5(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Figura 1] Flujo navegación Android
+    p.mt-5(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Figura 1] Flujo navegación #[em Android]
 
     figure.mt-5.col-md-7.m-auto
       img.image_floating(src="@/assets/curso/tema1/6.svg" data-aos="fade-up")
@@ -87,7 +87,7 @@
             img.imagen_flotante_animada(src='@/assets/curso/tema1/7.svg' alt='' style="width:150px;display:inline;")
         .tarjeta.tarjeta--azul.caja_flotante_rosada(style="background-color:#FFF5D5 !important;border-radius:0px !important;")
           .p-5
-            h4(data-aos="fade-up") Up
+            h4(data-aos="fade-up") #[em Up]
             p.mt-3(data-aos="fade-up") Por lo general, se encuentra en la parte superior o inferior izquierda y permite retroceder en la navegación, en un orden jerárquico establecido. La navegación permite replegarse de manera escalonada hacia el inicio o hacia la pantalla principal de la aplicación móvil.
 
     .tarjeta-avatar-b.mt-5
@@ -96,7 +96,7 @@
             img.imagen_flotante_animada(src='@/assets/curso/tema1/8.svg' alt='' style="width:100px;display:inline;")
         .tarjeta.tarjeta--azul.caja_flotante_rosada(style="background-color:#FFF5D5 !important;border-radius:0px !important;")
           .p-5
-            h4(data-aos="fade-up") Back
+            h4(data-aos="fade-up") #[em Back]
             p.mt-3(data-aos="fade-up") Este botón deshace ordenadamente la navegación que se ha ejecutado, restableciendo y ubicando al usuario, de nuevo en la pantalla de navegación de la que proviene.
 
     br
@@ -108,6 +108,7 @@
 
     figure.mt-5.col-md-7.m-auto
       img.image_floating(src="@/assets/curso/tema1/9.svg" data-aos="fade-up")
+      figcaption.mt-2(data-aos="fade-up")  Nota. Tomado de ejercicio práctico de descargas en app store.
 
     .col-md-9.m-auto.mt-5.p-5.caja_flotante_rosada(style="background-color:#FFF5D5")
       h4(data-aos="fade-up") Navegación jerárquica
@@ -115,21 +116,22 @@
 
     .col-md-9.m-auto.mt-4.p-5.caja_flotante_rosada(style="background-color:#FFF5D5")
       h4(data-aos="fade-up") Navegación plana
-      p.mt-4(data-aos="fade-up") La información está organizada para visualizarse y tener acceso a ella por medio de desplazamientos laterales de izquierda a derecha. La navegación con estructura plana permite la navegación desplazándose de una categoría a otra directamente y se cuenta con una pantalla principal que presenta todas las categorías de manera centralizada, como ejemplo se puede ver el funcionamiento de la app store.
+      p.mt-4(data-aos="fade-up") La información está organizada para visualizarse y tener acceso a ella por medio de desplazamientos laterales de izquierda a derecha. La navegación con estructura plana permite la navegación desplazándose de una categoría a otra directamente y se cuenta con una pantalla principal que presenta todas las categorías de manera centralizada, como ejemplo se puede ver el funcionamiento de la app #[em store].
 
     .col-md-9.m-auto.mt-4.p-5.caja_flotante_rosada(style="background-color:#FFF5D5")
       h4(data-aos="fade-up") Navegación contenida
       p.mt-4(data-aos="fade-up") Esta navegación combina las dos anteriores, la jerárquica y la plana.
 
     br
-    h3.mt-5(data-aos="fade-up")  Navegación en Windows phone
+    h3.mt-5(data-aos="fade-up")  Navegación en #[em Windows phone]
 
     p.mt-4(data-aos="fade-up") La navegación en este sistema operativo busca asemejar el funcionamiento de los sistemas operativos implementados en los computadores, ofreciendo una barra de estado o barra de navegación, ubicada en la parte inferior. Permite la interacción sencilla del usuario y recibe actualizaciones de información constantemente, mostrando diferentes notificaciones, como se muestra a continuación.
 
-    p.mt-5(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Figura 3]  Navegación Windows Phone
+    p.mt-5(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Figura 3]  Navegación #[em Windows Phone]
 
     figure.mt-5.col-md-7.m-auto
       img(src="@/assets/curso/tema1/10.svg" data-aos="fade-up")
+      figcaption.mt-2(data-aos="fade-up") http://catedraocampo.com.ar/diferencias-de-flujos-de-navegacion-en-apps-multiplatforma/
 
     br
     .tarjeta-avatar-b.mt-5

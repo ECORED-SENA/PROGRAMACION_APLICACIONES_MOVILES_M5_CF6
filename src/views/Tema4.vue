@@ -21,13 +21,13 @@
     .row.mt-5
       .col-md-8.mb-3
         LineaTiempoD.color-secundario
-          p.text-small(numero="1" titulo="Alojamiento") Casi siempre estaban habilitadas localmente en los sistemas en los que operaban.
+          p(numero="1" titulo="Alojamiento") Casi siempre estaban habilitadas localmente en los sistemas en los que operaban.
           
-          p.text-small(numero="2" titulo="Intercomunicación") Sin embargo, en algunas ocasiones pasaban mensajes entre las computadoras centrales.
+          p(numero="2" titulo="Intercomunicación") Sin embargo, en algunas ocasiones pasaban mensajes entre las computadoras centrales.
 
-          p.text-small(numero="3" titulo="Expansión") Después de casi 30 años, las API se expandieron más allá de los entornos locales. 
+          p(numero="3" titulo="Expansión") Después de casi 30 años, las API se expandieron más allá de los entornos locales. 
 
-          p.text-small(numero="4" titulo="Integración remota") A principios del año 2000 ya eran una tecnología importante para la integración remota de datos.
+          p(numero="4" titulo="Integración remota") A principios del año 2000 ya eran una tecnología importante para la integración remota de datos.
 
       .col-md-4
         figure
@@ -36,7 +36,7 @@
     br
     br
     .titulo-segundo.mt-5
-      h2#t_4_2 4.2 Historia de las API
+      h2#t_4_2 4.2 Tipos de API según sus permisos
 
     p(data-aos="fade-up") El uso de una API implica diferentes modelos de permisos y, así mismo, las API son clasificadas según dichos permisos, así:
 
@@ -52,8 +52,8 @@
         .tarjeta-numerada.color-primario.p-5(style="height:100%;")
           .tarjeta-numerada__numero
             .h2 2
-          h4(data-aos="fade-up") Partners
-          p.mt-4(data-aos="fade-up") Estas API son desarrolladas por algunas empresas y son distribuidas por partners que tienen permisos especiales para vender estos servicios empresariales, ofreciendo ingresos adicionales a la empresa y a los distribuidores autorizados.
+          h4(data-aos="fade-up") #[em Partners]
+          p.mt-4(data-aos="fade-up") Estas API son desarrolladas por algunas empresas y son distribuidas por #[em partners] que tienen permisos especiales para vender estos servicios empresariales, ofreciendo ingresos adicionales a la empresa y a los distribuidores autorizados.
 
       .col-md-4.mb-3
         .tarjeta-numerada.color-secundario.p-5(style="height:100%;")
@@ -67,7 +67,7 @@
     .titulo-segundo.mt-5
       h2#t_4_3 4.3 ¿Por qué son importantes las API?
 
-    p(data-aos="fade-up") Si se cuenta con una API no será necesario crear desde cero un servicio, como ejemplo, se puede tomar un sistema de pagos. Es posible integrar a una aplicación una API de un servicio de pago ya existente, por ejemplo, PayPal; cuando se suministra la información de una tarjeta, la aplicación utiliza una API para compartir la información y enviar esos datos de forma remota a otro programa que verificará y validará la información.
+    p(data-aos="fade-up") Si se cuenta con una API no será necesario crear desde cero un servicio, como ejemplo, se puede tomar un sistema de pagos. Es posible integrar a una aplicación una API de un servicio de pago ya existente, por ejemplo, #[em PayPal]; cuando se suministra la información de una tarjeta, la aplicación utiliza una API para compartir la información y enviar esos datos de forma remota a otro programa que verificará y validará la información.
 
     .cajon.color-primario.p-5.mt-5.caja_flotante_azul(style="background-color: #DBFBFF;")
       p(data-aos="fade-up") Una vez se verifica la información se retornará una respuesta a la aplicación, indicando si los datos son válidos; esta pasarela de pago suministra un servicio muy complejo de desarrollar, que requiere altos niveles de seguridad que pueden ser aviados, al utilizar esta API que permite la integración y utilización de este servicio.
@@ -89,21 +89,23 @@
       
       .tarjeta.color-primario.p-4(titulo="Estandarización del lenguaje" style="background-color:rgb(124 197 255 / 15%)")
         h4(data-aos="fade-up") Estandarización del lenguaje
-        p.mt-4(data-aos="fade-up") Con SOAP se facilita el proceso de comunicación estandarizando del lenguaje, reglas y políticas definidas, entre aplicaciones que funcionan en entornos distintos o están escritas en lenguajes diferentes, pero logran compartir la información.
+        p.mt-4(data-aos="fade-up") Con SOAP se facilita el proceso de comunicación estandarizando de lenguaje, reglas y políticas definidas, entre aplicaciones que funcionan en entornos distintos o están escritas en lenguajes diferentes, pero logran compartir la información.
 
       .tarjeta.color-primario.p-4(titulo="Entornos descentralizados" style="background-color:rgb(124 197 255 / 15%)")
         h4(data-aos="fade-up") Entornos descentralizados
         p.mt-4(data-aos="fade-up") El protocolo SOAP se caracteriza por ser liviano y se utiliza, primordialmente, para realizar un intercambio de información en entornos descentralizados; con frecuencia se suele asociar SOAP con el lenguaje de descripción de servicios web UDDI y WSDL.
 
       .tarjeta.color-primario.p-4(titulo="REST" style="background-color:rgb(124 197 255 / 15%)")
-        h4(data-aos="fade-up") REST
-        p.mt-4(data-aos="fade-up") Por otra parte, está REST, que no es un protocolo sino una arquitectura, es la de mayor uso en la actualidad. Los denominados Restful son derivaciones de la arquitectura REST.
+        h4(data-aos="fade-up") #[em REST]
+        p.mt-4(data-aos="fade-up") Por otra parte, está #[em REST], que no es un protocolo sino una arquitectura, es la de mayor uso en la actualidad. Los denominados #[em Restful] son derivaciones de la arquitectura #[em REST].
 
       .tarjeta.color-primario.p-4(titulo="Arquitecturas locales y remotas" style="background-color:rgb(124 197 255 / 15%)")
         h4(data-aos="fade-up") Arquitecturas locales y remotas
         p.mt-4(data-aos="fade-up") Existen por su parte arquitecturas locales, aquellas en las que la aplicación se comunica con la API que se encuentra en el mismo ambiente o dispositivo y las arquitecturas remotas, aquellas en las que la aplicación necesita consumir una API, ubicada o alojada en servidores remotos y es necesario contar con un servicio de conexión de datos o Internet para acceder al servicio.
 
-    h3.mt-5(data-aos="fade-up") API de servicios web o remotas.
+    h3.mt-5(data-aos="fade-up") API de servicios web o remotas
+
+    p.mt-4(data-aos="fade-up") Estos servicios permiten que las aplicaciones conectadas se comuniquen utilizando el protocolo HTTP que es, básicamente, un conjunto de reglas definidas entre cliente-servidor para realizar el intercambio de información. Este es el principio fundamental que permite que las API remotas logren establecer una comunicación entre aplicaciones de distintas ubicaciones, como se muestra en la siguiente figura.
 
     p.mt-5(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Figura 5]  Formatos más comunes de envío de datos 
 
@@ -148,9 +150,9 @@
     .cajon.color-primario.p-5.mt-5.caja_flotante_azul(style="background-color: #DBFBFF;")
       p(data-aos="fade-up") Las llamadas de estos servicios se ejecutan de acuerdo con los estándares del entorno de la aplicación, como por ejemplo .NET o J2EE.
 
-    h3.mt-5(data-aos="fade-up") API heredadas.
+    h3.mt-5(data-aos="fade-up") API heredadas
 
-    p.mt-4(data-aos="fade-up") Se utilizan en la integración de interfaces de aplicaciones que usan reglas y protocolos de comunicación. Estas API se utilizan integrando elementos de hardware, usando protocolos de objetos remotos, por medio de archivos planos, integrando interfaces de sistemas operativos.
+    p.mt-4(data-aos="fade-up") Se utilizan en la integración de interfaces de aplicaciones que usan reglas y protocolos de comunicación. Estas API se utilizan integrando elementos de #[em hardware], usando protocolos de objetos remotos, por medio de archivos planos, integrando interfaces de sistemas operativos.
 
     .row.mt-5
       .col-md-7.mb-3
@@ -160,17 +162,17 @@
 
         .p-5.caja_flotante_rosada.caja__1.mt-4.caja_escalada_hover(style="background-color:#FFF5D5")
           h4(data-aos="fade-up") OMG
-          p.mt-4(data-aos="fade-up") Es un estándar definido por el grupo de gestión de objetos (OMG) que permite el funcionamiento conjunto de componentes de software escritos en distintos lenguajes informáticos y que se ejecutan en distintos sistemas.
+          p.mt-4(data-aos="fade-up") Es un estándar definido por el grupo de gestión de objetos (OMG) que permite el funcionamiento conjunto de componentes de #[em software] escritos en distintos lenguajes informáticos y que se ejecutan en distintos sistemas.
 
         .p-5.caja_flotante_rosada.caja__1.mt-4.caja_escalada_hover(style="background-color:#FFF5D5")
-          h4(data-aos="fade-up") Asociación por medio de token
-          p.mt-4(data-aos="fade-up") Estos tipos de objetos CORBA pueden recibir muchas llamadas y repeticiones de acceso, pero el tipo de objeto del cliente no cambia, cada instancia del tipo de objeto del cliente se asocia por medio de un token a sus datos.
+          h4(data-aos="fade-up") Asociación por medio de #[em token]
+          p.mt-4(data-aos="fade-up") Estos tipos de objetos CORBA pueden recibir muchas llamadas y repeticiones de acceso, pero el tipo de objeto del cliente no cambia, cada instancia del tipo de objeto del cliente se asocia por medio de un #[em token] a sus datos.
 
       .col-md-5.text-center(style="place-self:center;")
         figure
           img.imagen_flotante_animada(src="@/assets/curso/tema4/6.svg" style="width:150px;display:inline;")
 
-    h3.mt-5(data-aos="fade-up") API de producción.
+    h3.mt-5(data-aos="fade-up") API de producción
 
     p.mt-4(data-aos="fade-up") Son fundamentales porque manejan la lógica comercial de las aplicaciones. Una vez desarrollada la app, esta debe recibir datos reales y es, en este momento, cuando la API de producción permite realizar esta actividad de generación de información real.
 
@@ -179,55 +181,52 @@
 
       p.mt-3(data-aos="fade-up") Estas API de producción no deben devolver datos a los usuarios que no estén autorizados en visualizar la información; tampoco debe permitir la actualización de la información que no debe ser modificada. Deben ser rápidas porque son las responsables de manejar, en el mundo real, todo el tráfico de la aplicación.
 
-    h3.mt-5(data-aos="fade-up") API de desarrollo.
+    h3.mt-5(data-aos="fade-up") API de desarrollo
 
-    p.mt-4(data-aos="fade-up") También conocidas como API falsas, son utilizadas para realizar presentaciones previas al cliente demostrando el funcionamiento de la aplicación, antes de salir a producción. El objetivo de este tipo de API es realizar las pruebas de Frontend y Backend, continuar con el desarrollo, aunque no existan bases de datos o datos reales, como se muestra en la siguiente figura.
+    p.mt-4(data-aos="fade-up") También conocidas como API falsas, son utilizadas para realizar presentaciones previas al cliente demostrando el funcionamiento de la aplicación, antes de salir a producción. El objetivo de este tipo de API es realizar las pruebas de #[em Frontend] y #[em Backend], continuar con el desarrollo, aunque no existan bases de datos o datos reales, como se muestra en la siguiente figura.
 
     p.mt-5(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Figura 6]  Tipos de API
 
     figure.mt-5.col-md-9.m-auto
       img.image_floating(src="@/assets/curso/tema4/7.svg" data-aos="fade-up")
+      figcaption.mt-2(data-aos="fade-up") https://ceroideas.es/tipos-de-api-según-su-funcion-y-tecnologia/ 
 
     .cajon.color-primario.p-5.mt-5.caja_flotante_azul(style="background-color: #DBFBFF;")
-      p(data-aos="fade-up") Las API de desarrollo generalmente no guardan, ni alojan datos en una base de datos, lo que se debe hacer es guardar todo en la memoria de manera temporal mientras se realizan las pruebas. Las API web que trabajan con las limitaciones de la arquitectura REST se conocen como las API de RESTFUL. Una API web de RESTFUL no cuenta con ningún estándar oficial que genere unas reglas para su desarrollo y utilización Fielding (2000).
+      p(data-aos="fade-up") Las API de desarrollo generalmente no guardan, ni alojan datos en una base de datos, lo que se debe hacer es guardar todo en la memoria de manera temporal mientras se realizan las pruebas. Las API web que trabajan con las limitaciones de la arquitectura #[em REST] se conocen como las API de #[em RESTFUL]. Una API web de #[em RESTFUL] no cuenta con ningún estándar oficial que genere unas reglas para su desarrollo y utilización (Fielding, 2000).
 
     br
     br
     .titulo-segundo.mt-5
-      h2#t_4_5 4.5 Arquitectura cliente-servidor REST
+      h2#t_4_5 4.5 Arquitectura cliente-servidor #[em REST]
 
-    p(data-aos="fade-up") La arquitectura REST se compone de tres elementos: los clientes, los servidores y los recursos. De esta manera, se administran las solicitudes con HTTP; los servicios web RESTFUL son un grupo de parámetros que están ajustados bajo los principios de la arquitectura de transferencia de estado representacional (REST).
+    p(data-aos="fade-up") La arquitectura #[em REST] se compone de tres elementos: los clientes, los servidores y los recursos. De esta manera, se administran las solicitudes con HTTP; los servicios web #[em RESTFUL] son un grupo de parámetros que están ajustados bajo los principios de la arquitectura de transferencia de estado representacional (#[em REST]).
 
-    p.mt-4(data-aos="fade-up") Los elementos de REST esencialmente utilizan la arquitectura cliente/servidor, basados en el protocolo de trasferencia HTTP, que admite la ejecución de los indicadores de recursos universales (URI).
+    p.mt-4(data-aos="fade-up") Los elementos de #[em REST] esencialmente utilizan la arquitectura cliente/servidor, basados en el protocolo de trasferencia HTTP, que admite la ejecución de los indicadores de recursos universales (URI).
 
     figure.mt-5
       img.image_floating(src="@/assets/curso/tema4/8.svg" data-aos="fade-up")
 
-    p.mt-5(data-aos="fade-up") WSDL (Web Services Description Language) es un formato del Extensible Markup Language que se usa para detallar servicios web, es un lenguaje de programación fundamentado en XML y su principio fundamental es detallar servicios web. Cuando se está programando una API y se solicita información a una API REST el servidor responde, generalmente, la solicitud con un código o códigos preestablecidos; estos son algunos de los principales:
+    p.mt-5(data-aos="fade-up") WSDL (#[em Web Services Description Language]) es un formato del #[em Extensible Markup Language] que se usa para detallar servicios web, es un lenguaje de programación fundamentado en XML y su principio fundamental es detallar servicios web. Cuando se está programando una API y se solicita información a una API #[em REST] el servidor responde, generalmente, la solicitud con un código o códigos preestablecidos; estos son algunos de los principales:
 
     .mt-5.p-5.caja_flotante_azul(style="background-color:#DBFBFF")
       ul.lista-ul
         li(data-aos="fade-up")
-          i.fas.fa-check(style="color: #FFA726;")
-          |  #[strong 2xx:] demuestran que la petición se ha procesado correctamente.
+          p.mb-0 #[i.fas.fa-check(style="color: #FFA726;")] #[strong 2xx:] que la petición se ha procesado correctamente.
         li(data-aos="fade-up")
-          i.fas.fa-check(style="color: #FFA726;")
-          |  #[strong 3xx:] señala qué se debe redireccionar, indicando la realización de una acción adicional para completar la petición.
+          p.mb-0 #[i.fas.fa-check(style="color: #FFA726;")] #[strong 3xx:] señala qué se debe redireccionar, indicando la realización de una acción adicional para completar la petición.
         li(data-aos="fade-up")
-          i.fas.fa-check(style="color: #FFA726;")
-          |  #[strong 4xx:] marca una solicitud inválida, se genera cuando se realizan peticiones a recursos inexistentes o no autorizados.
+          p.mb-0 #[i.fas.fa-check(style="color: #FFA726;")] #[strong 4xx:] marca una solicitud inválida, se genera cuando se realizan peticiones a recursos inexistentes o no autorizados.
         li(data-aos="fade-up")
-          i.fas.fa-check(style="color: #FFA726;")
-          |  #[strong 5xx:] indica fallas o errores relacionados directamente con el servidor.
+          p.mb-0 #[i.fas.fa-check(style="color: #FFA726;")] #[strong 5xx:] indica fallas o errores relacionados directamente con el servidor.
 
     br
     br
     .titulo-segundo.mt-5
       h2#t_4_6 4.6 Métodos HTTP usados en las APIs
 
-    p(data-aos="fade-up") Los métodos HTTP permiten la interacción con la información de la API, esto es equivalente al CRUD de las bases de datos. Get es el método que realiza la solicitud de información, post expide la nueva información registrada actualizando los datos, put permite la actualización de los datos cuando se realiza el cambio relevante en la información y delete realiza la eliminación de recursos; en la siguiente figura se muestran estos métodos.
+    p(data-aos="fade-up") Los métodos HTTP permiten la interacción con la información de la API, esto es equivalente al CRUD de las bases de datos. #[em Get] es el método que realiza la solicitud de información, #[em post] expide la nueva información registrada actualizando los datos, #[em put] permite la actualización de los datos cuando se realiza el cambio relevante en la información y #[em delete] realiza la eliminación de recursos; en la siguiente figura se muestran estos métodos.
 
-    p.mt-5(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Figura 7]  Métodos HTTP en las APIS
+    p.mt-5(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Figura 7]  Métodos HTTP en las APIs
 
     figure.mt-5.col-md-5.m-auto
       img.image_floating(src="@/assets/curso/tema4/9.svg" data-aos="fade-up")
@@ -239,7 +238,7 @@
         .anexo__texto
           p(style="color:#12263F;") #[strong(style="color:#12263F;") ¿Qué son las APIs y para qué sirven?]
 
-    p.mt-5(data-aos="fade-up") #[strong Finalmente, algunas características a tener en cuenta cuando se utiliza la arquitectura RESTFUL son:]
+    p.mt-5(data-aos="fade-up") #[strong Finalmente, algunas características a tener en cuenta cuando se utiliza la arquitectura #[em RESTFUL] son:]
 
     PasosA.color-primario.mt-2.p-5(tipo="l")
       .row
@@ -270,7 +269,7 @@
       .row
         .col-md-12.mb-4.mb-md-0
           h4(data-aos="fade-up") Interfaz uniforme
-          p.mt-4(data-aos="fade-up") Esta limitación es fundamental para el diseño de las API de RESTFUL e incluye 4 aspectos:
+          p.mt-4(data-aos="fade-up") Esta limitación es fundamental para el diseño de las API de #[em RESTFUL] e incluye 4 aspectos: identificación de recursos, administración de recursos, mensajes autodescriptivos e hipermedios.
 
       .row
         .col-md-12.mb-4.mb-md-0
@@ -437,4 +436,8 @@ export default {
   background-color: #E8E8E8
 .caja__1:hover
   background-color: #FFDE79 !important
+.tarjeta-numerada.color-primario
+  border-color: #4dd0e1
+.tarjeta-numerada.color-primario .tarjeta-numerada__numero
+  background-color: #4dd0e1
 </style>

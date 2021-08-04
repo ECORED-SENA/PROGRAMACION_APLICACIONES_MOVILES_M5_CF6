@@ -35,7 +35,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Flujos de navegación según Sistema Operaativo',
+            titulo: 'Flujos de navegación según Sistema Operativo',
             hash: 't_1_2',
           },
         ],
@@ -94,7 +94,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '3.7',
-            titulo: 'Componentes de negocio',
+            titulo: 'Concurrencia y transacciones',
             hash: 't_3_7',
           },
         ],
@@ -187,9 +187,9 @@ export default {
     },
     {
       referencia:
-        'Fielding, R. (2000).  Architectural styles and the design of network -based software architectures. Dissertations Publishing.',
+        'Fielding, R. (2000).  <em>Architectural styles and the design of network -based software architectures. Dissertations Publishing</em>. ',
       link:
-        'https://www.proquest.com/openview/fc2d064044b971dda476dfb429a2b344/1?pq-origsite=gscholar&cbl=18750&diss=y',
+        ' https://www.proquest.com/openview/fc2d064044b971dda476dfb429a2b344/1?pq-origsite=gscholar&cbl=18750&diss=y',
     },
     {
       referencia:
@@ -209,21 +209,21 @@ export default {
     },
     {
       referencia:
-        'Raboy, N. (2018). Realizar solicitudes HTTP a servicios web remotos en una aplicación NativeScript-Vue [Web log post]. Blogspot',
-      link:
-        'https://blog.nativescript.org/make-http-requests-to-remote-web-services-in-a-nativescript-vue-app/index.html',
-    },
-    {
-      referencia:
         'Raboy, N. (2015). Realizar solicitudes HTTP en una aplicación móvil NativeScript [Web log post]. Blogspot.',
       link:
-        'https://www.thepolyglotdeveloper.com/2015/11/make-http-requests-in-a-nativescript-mobile-application/ ',
+        ' https://www.thepolyglotdeveloper.com/2015/11/make-http-requests-in-a-nativescript-mobile-application/ ',
     },
     {
       referencia:
         'Raboy, N. (2016). Trabajar con datos RESTFUL en Angular 2 y NativeScript [Web log post]. Blogspot. ',
       link:
-        'https://www.telerik.com/blogs/working-with-restful-data-in-angular-2-and-nativescript ',
+        ' https://www.telerik.com/blogs/working-with-restful-data-in-angular-2-and-nativescript ',
+    },
+    {
+      referencia:
+        'Raboy, N. (2018). Realizar solicitudes HTTP a servicios web remotos en una aplicación NativeScript-Vue [Web log post]. Blogspot. ',
+      link:
+        'https://blog.nativescript.org/make-http-requests-to-remote-web-services-in-a-nativescript-vue-app/index.html',
     },
     {
       referencia:
@@ -235,12 +235,12 @@ export default {
     {
       termino: 'Comandos “Batching”',
       significado:
-        'Esto es lo que se denomina procesamiento por lotes o batching. Consiste en dedicar un período de tiempo a realizar tareas similares o que requieren los mismos recursos.',
+        'Esto es lo que se denomina procesamiento por lotes o <em>batching</em>. Consiste en dedicar un período de tiempo a realizar tareas similares o que requieren los mismos recursos.',
     },
     {
       termino: 'CRUD',
       significado:
-        'Es el acrónimo de (Create, Read, Update and Delete) que traduce “crear, leer, actualizar y borrar”, por lo general se utiliza en las actividades básicas  realizadas sobre una base de datos.',
+        'Es el acrónimo de (<em>Create, Read, Update and Delete</em>) que traduce “crear, leer, actualizar y borrar”, por lo general se utiliza en las actividades básicas  realizadas sobre una base de datos.',
     },
     {
       termino: 'Partner',
@@ -255,7 +255,7 @@ export default {
     {
       termino: 'W3C',
       significado:
-        'Se define como un consorcio internacional que trabaja en el desarrollo de estándares Web, buscando mantener la idea básica de la World Wide Web. ',
+        'Se define como un consorcio internacional que trabaja en el desarrollo de estándares <em>Web</em>, buscando mantener la idea básica de la <em>World Wide Web</em>.',
     },
   ],
   complementario: [
@@ -274,7 +274,7 @@ export default {
     },
     {
       texto:
-        'Bravent IT consulting Company (2010). Webinar – desarrollando apps móviles con NativeScript [video]. YouTube.  ',
+        'Bravent IT consulting Company (2010). Webinar – Desarrollando apps móviles con NativeScript [video]. YouTube.  ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=qN0hwVAPA0A ',
     },
@@ -304,7 +304,28 @@ export default {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Wilson Andrés Cuervo Nieto',
+        cargo: 'Instructor',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Fabián Leonardo Correa Díaz',
+        cargo: 'Diseñador instruccional',
+        centro: 'Centro Agropecuario La Granja - Regional Tolima',
+      },
+      {
+        nombre: 'Alix Cecilia Chinchilla Rueda',
+        cargo: 'Evaluadora instruccional',
+        centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Julia Isabel Roberto',
+        cargo: 'Diseñadora y evaluadora instruccional',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
       },
     ],
     desarrolloProducto: [
@@ -312,36 +333,65 @@ export default {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
         cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: 'Carlos Julián Ramírez Benítez ',
         cargo: 'Diseño web',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Desarrollo Front-End',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Nombre',
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
         cargo: 'Producción audiovisual',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'José Jaime Luis Tang Pinzón',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Lady Adriana Ariza Luque',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Víctor Raúl Cárdenas Cáceres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Cáceres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Zuleidy Maria Ruiz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'Luis Jesús Pérez Madariaga ',
+        cargo: 'Desarrollo Front-End',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Jenny Paola Montillo Gélvez',
         cargo: 'Validación de diseño y contenido',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
     ],
     gestoresRepositorio: [

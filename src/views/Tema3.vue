@@ -28,7 +28,7 @@
       .col-md-9.mb-3
         p(data-aos="fade-up") La capa de acceso a los datos debe estar protegida de posibles incursiones y ataques que buscan robar o dañar la información. Proteger todos los elementos que permiten las transacciones y por donde fluye la información evitando que se tenga un fácil acceso a las fuentes de datos es una necesidad. Se debe manejar, en todos los niveles y capas, unos mínimos de seguridad restringiendo el acceso a las fuentes de datos.
 
-        p.mt-3(data-aos="fade-up") También reduce los procesos de ida y vuelta reiterativos, considerando la utilización de instrucciones “batching” o también conocido como manejo por lotes, dentro de una única operación de base de datos. 
+        p.mt-3(data-aos="fade-up") También reduce los procesos de ida y vuelta reiterativos, considerando la utilización de instrucciones #[em “batching”] o también conocido como manejo por lotes, dentro de una única operación de base de datos. 
 
       .col-md-3.text-center
         figure
@@ -100,12 +100,12 @@
           p.mt-4(data-aos="fade-up") Se trata entonces de establecer la manera en que se utilizará para realizar el envío de información entre los componentes de la aplicación móvil. 
 
       .col-md-4.mb-3
-        .p-5.caja_flotante.caja_escalada_hover(style="background-color:#FFCA28;height:100%;")
+        .p-5.caja_flotante.caja_escalada_hover(style="background-color:#4DD0E1;height:100%;")
           h3(data-aos="fade-up") Ubicación, acoplamiento e interacciones apropiadas
           p.mt-4(data-aos="fade-up") Se trata, además, de definir qué tipo de soporte es el apropiado para utilizar entre las transacciones, asegurando que son las adecuadas para lograr la mejor ubicación, el mejor acoplamiento, y lograr las interacciones de los componentes de negocio.
 
       .col-md-4.mb-3
-        .p-5.caja_flotante_azul.caja_escalada_hover(style="background-color:#4DD0E1;height:100%;")
+        .p-5.caja_flotante_azul.caja_escalada_hover(style="background-color:#FFCA28;height:100%;")
           h3(data-aos="fade-up") Formatos de datos
           p.mt-4(data-aos="fade-up") Elegir e identificar los formatos de los datos que serán comunes para las entidades de negocio que se interrelacionan.
 
@@ -210,7 +210,7 @@ export default {
       {
         titulo: 'Protección de la información',
         texto:
-          'Se debe seleccionar el método apropiado para el almacenamiento y protección de la información, en estas conexiones y sus transacciones, que deben estar acordes con los requisitos de seguridad de las aplicaciones. La capa que permite el acceso a los datos debe capturar, manejar y administrar todas las excepciones asociadas con las fuentes de datos y las operaciones CRUD (create, read, update, delete).  Determinando cómo se van a manejar las excepciones de datos, evitando anomalías en las consultas de información y teniendo el control de todas las transacciones y operaciones realizadas.',
+          'Se debe seleccionar el método apropiado para el almacenamiento y protección de la información, en estas conexiones y sus transacciones, que deben estar acordes con los requisitos de seguridad de las aplicaciones. La capa que permite el acceso a los datos debe capturar, manejar y administrar todas las excepciones asociadas con las fuentes de datos y las operaciones CRUD (<em>create, read, update, delete</em>).  Determinando cómo se van a manejar las excepciones de datos, evitando anomalías en las consultas de información y teniendo el control de todas las transacciones y operaciones realizadas.',
         imagen: require('@/assets/curso/tema3/5.svg'),
       },
     ],
