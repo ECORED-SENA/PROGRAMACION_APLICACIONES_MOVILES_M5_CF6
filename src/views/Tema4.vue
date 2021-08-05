@@ -89,7 +89,7 @@
       
       .tarjeta.color-primario.p-4(titulo="Estandarización del lenguaje" style="background-color:rgb(124 197 255 / 15%)")
         h4(data-aos="fade-up") Estandarización del lenguaje
-        p.mt-4(data-aos="fade-up") Con SOAP se facilita el proceso de comunicación estandarizando de lenguaje, reglas y políticas definidas, entre aplicaciones que funcionan en entornos distintos o están escritas en lenguajes diferentes, pero logran compartir la información.
+        p.mt-4(data-aos="fade-up") Con SOAP se facilita el proceso de comunicación estandarizando el lenguaje, reglas y políticas definidas, entre aplicaciones que funcionan en entornos distintos o están escritas en lenguajes diferentes, pero logran compartir la información.
 
       .tarjeta.color-primario.p-4(titulo="Entornos descentralizados" style="background-color:rgb(124 197 255 / 15%)")
         h4(data-aos="fade-up") Entornos descentralizados

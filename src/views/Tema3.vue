@@ -101,7 +101,7 @@
 
       .col-md-4.mb-3
         .p-5.caja_flotante.caja_escalada_hover(style="background-color:#4DD0E1;height:100%;")
-          h3(data-aos="fade-up") Ubicación, acoplamiento e interacciones apropiadas
+          h3(data-aos="fade-up" style="word-break: break-word;") Ubicación, acoplamiento e interacciones apropiadas
           p.mt-4(data-aos="fade-up") Se trata, además, de definir qué tipo de soporte es el apropiado para utilizar entre las transacciones, asegurando que son las adecuadas para lograr la mejor ubicación, el mejor acoplamiento, y lograr las interacciones de los componentes de negocio.
 
       .col-md-4.mb-3

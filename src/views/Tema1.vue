@@ -108,7 +108,7 @@
 
     figure.mt-5.col-md-7.m-auto
       img.image_floating(src="@/assets/curso/tema1/9.svg" data-aos="fade-up")
-      figcaption.mt-2(data-aos="fade-up")  Nota. Tomado de ejercicio práctico de descargas en app store.
+      figcaption.mt-2(data-aos="fade-up")  Nota. Tomado de ejercicio práctico de descargas en app #[em store].
 
     .col-md-9.m-auto.mt-5.p-5.caja_flotante_rosada(style="background-color:#FFF5D5")
       h4(data-aos="fade-up") Navegación jerárquica
